@@ -24,7 +24,7 @@
         <h3> player 1 </h3>
         <div class = "player_information">
           <Label><b>Name:</b> <p id = "name_player1"></p></Label>  <!-- insert name of the player1  -->
-          <Label>lives: <p id = "ships_player1"></p></Label> <!-- insert ships of the player1  -->
+          <Label>Lives: <p id = "ships_player1"></p></Label> <!-- insert ships of the player1  -->
         </div>
         <ul id = "board_player1"></ul>  <!-- board player1  -->
       </div>
@@ -32,7 +32,9 @@
       <!-- turn player -->
       <div>
         <label>turn: <h3 id="turn_player"></h3><label> <!-- insert name of the turn player -->
-        <div id="buttons"></div> <!-- reset and newGame buttons -->
+        <!-- <div id="buttons"></div> reset and newGame buttons -->
+        <button type="button" onclick="newGame()">New Game</button>
+        <button type="button" onclick="restartGame()">Restart</button>
       </div>
 
       <!-- player 2 -->
